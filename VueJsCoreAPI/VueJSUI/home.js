@@ -1,0 +1,1 @@
+const home={template:'<h1>Employee and Department Management System using Vue.JS, ASP .Net core API, PostgreSQL</h1>'}

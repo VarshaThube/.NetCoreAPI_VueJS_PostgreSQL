@@ -1,0 +1,20 @@
+Create Table Department 
+(
+DepartmentId Serial,
+DepartmentName varchar(500)
+);
+
+Insert into Department(DepartmentName) values ('IT');
+Insert into Department(DepartmentName) values ('Support');
+
+Create Table Employee 
+(
+EmployeeId Serial,
+EmployeeName varchar(500),
+Department varchar(500),
+DsteOfJoining date,
+PhotoFileName varchar(500)
+);
+
+Insert into Employee (EmployeeName, Department, DsteOfJoining, PhotoFileName )
+values ('Varsha', 'IT', '2014-03-10', 'anonymus.png');
