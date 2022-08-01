@@ -12,9 +12,9 @@ Create Table Employee
 EmployeeId Serial,
 EmployeeName varchar(500),
 Department varchar(500),
-DsteOfJoining date,
+DateOfJoining date,
 PhotoFileName varchar(500)
 );
 
-Insert into Employee (EmployeeName, Department, DsteOfJoining, PhotoFileName )
+Insert into Employee (EmployeeName, Department, DateOfJoining, PhotoFileName )
 values ('Varsha', 'IT', '2014-03-10', 'anonymus.png');
